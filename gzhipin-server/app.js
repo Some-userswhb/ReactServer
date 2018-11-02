@@ -1,10 +1,10 @@
 /**
  * Created by 98194 on 2018/10/31.
  */
-const express = request('express');
-const db = request('./db');
+const express = require('express');
+const db = require('./db');
 //引入路由器模块
-const router = request('./router');
+const router = require('./router');
 
 const app = express();
 
